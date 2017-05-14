@@ -1,9 +1,9 @@
-unmap('x')
-map('q', 'x')
-unmap('X')
-map('u', 'X')
-map('+', 'zi')
-map('-', 'zo')
-map('<F1>', 'E')
-map('<F2>', 'R')
-map('<C-h>', 'gh')
+unmap('x');
+map('q', 'x');
+unmap('X');
+map('u', 'X');
+map('+', 'zi');
+map('-', 'zo');
+map('<F1>', 'E');
+map('<F2>', 'R');
+map('<C-h>', 'gh');
