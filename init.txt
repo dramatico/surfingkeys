@@ -8,7 +8,9 @@ map('<C-h>', 'gh');
 unmap('ob');     // Open Search with alias b
 unmap('ow');     // Open Search with alias w
 unmap('sb');     // Search selected with baidu
+unmap('sB');
 unmap('sw');     // Search selected with bing
+unmap('sW');
 unmap('sob');    // Search selected only in this site with baidu
 unmap('sow');    // Search selected only in this site with bing
 unmap(';j');     // Close Downloads Shelf
