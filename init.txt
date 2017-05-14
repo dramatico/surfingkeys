@@ -1,5 +1,7 @@
 unmap('x')
 map('q', 'x')
+unmap('X')
+map('u', 'X')
 map('+', 'zi')
 map('-', 'zo')
 map('<F1>', 'E')
