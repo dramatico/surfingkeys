@@ -12,7 +12,9 @@ unmap('sw');     // Search selected with bing
 unmap('sob');    // Search selected only in this site with baidu
 unmap('sow');    // Search selected only in this site with bing
 unmap(';j');     // Close Downloads Shelf
-
+unmap('ZQ');
+unmap('ZZ');
+unmap('ZR');
     
     
     
