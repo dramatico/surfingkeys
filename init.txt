@@ -1,2 +1,4 @@
 unmap('x')
 map('q', 'x')
+map('+', 'zi')
+map('-', 'zo')
