@@ -4,7 +4,6 @@ map('+', 'zi');
 map('-', 'zo');
 map('<F1>', 'E');
 map('<F2>', 'R');
-unmap('<C-h>');
 map('<C-h>', 'gh');
 unmap('ob');     // Open Search with alias b
 unmap('ow');     // Open Search with alias w
@@ -13,10 +12,7 @@ unmap('sw');     // Search selected with bing
 unmap('sob');    // Search selected only in this site with baidu
 unmap('sow');    // Search selected only in this site with bing
 unmap(';j');     // Close Downloads Shelf
-addSearchAliasX('a', 'Amazon', 'https://www.amazon.co.jp/s/field-keywords=', 'o', function(response) {
-    var res = eval(response.text);
-    Omnibar.listWords(res[1]);
-    });
+
     
     
     
