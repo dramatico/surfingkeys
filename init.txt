@@ -17,18 +17,6 @@ addSearchAliasX('a', 'Amazon', 'https://www.amazon.co.jp/s/field-keywords=', 'o'
     var res = eval(response.text);
     Omnibar.listWords(res[1]);
     });
-addSearchAliasX('y', 'YouTube', 'http://www.youtube.com/results?search_query=', 'o', function(response) {
-    var res = eval(response.text);
-    Omnibar.listWords(res[1]);
-    });
-addSearchAliasX('e', 'alc', 'http://eowf.alc.co.jp/search?q=', 'o', function(response) {
-    var res = eval(response.text);
-    Omnibar.listWords(res[1]);
-    });
-addSearchAliasX('e', 'alc', 'http://eowf.alc.co.jp/search?q=', 's', function(response) {
-    var res = eval(response.text);
-    Omnibar.listWords(res[1]);
-    });
     
     
     
