@@ -8,17 +8,25 @@ map('<C-h>', 'gh');
 unmap('ob');     // Open Search with alias b
 unmap('ow');     // Open Search with alias w
 unmap('sb');     // Search selected with baidu
+unmap('sob');
 unmap('sB');
+unmap('soB');
 unmap('sw');     // Search selected with bing
+unmap('sow');
 unmap('sW');
-unmap('sob');    // Search selected only in this site with baidu
-unmap('sow');    // Search selected only in this site with bing
+unmap('soW');
+unmap('soh');
+unmap('sH');
+unmap('soH');
+unmap('ss');
+unmap('sos');
+unmap('sS');
+unmap('soS');
 unmap(';j');     // Close Downloads Shelf
 unmap('ZQ');
 unmap('ZZ');
 unmap('ZR');
-    
-    
+
     
     
     
