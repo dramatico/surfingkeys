@@ -6,4 +6,5 @@ map('+', 'zi');
 map('-', 'zo');
 map('<F1>', 'E');
 map('<F2>', 'R');
+unmap('<C-h>');
 map('<C-h>', 'gh');
