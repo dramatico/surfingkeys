@@ -1,6 +1,4 @@
-unmap('x');
 map('q', 'x');
-unmap('X');
 map('u', 'X');
 map('+', 'zi');
 map('-', 'zo');
@@ -8,3 +6,28 @@ map('<F1>', 'E');
 map('<F2>', 'R');
 unmap('<C-h>');
 map('<C-h>', 'gh');
+unmap('ob');     // Open Search with alias b
+unmap('ow');     // Open Search with alias w
+unmap('sb');     // Search selected with baidu
+unmap('sw');     // Search selected with bing
+unmap('sob');    // Search selected only in this site with baidu
+unmap('sow');    // Search selected only in this site with bing
+unmap(';j');     // Close Downloads Shelf
+addSearchAliasX('a', 'Amazon', 'https://www.amazon.co.jp/s/field-keywords=');
+addSearchAliasX('y', 'YouTube', 'http://www.youtube.com/results?search_query=');
+addSearchAliasX('e', 'alc', 'http://eowf.alc.co.jp/search?q=', 's', function(response) {
+    var res = eval(response.text);
+    Omnibar.listWords(res[1]);
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
