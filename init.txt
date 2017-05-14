@@ -22,12 +22,17 @@ unmap('ss');
 unmap('sos');
 unmap('sS');
 unmap('soS');
+unmap('sd');
 unmap(';j');     // Close Downloads Shelf
 unmap('ZQ');
 unmap('ZZ');
 unmap('ZR');
-
-    
+addSearchAlias('k', 'Kotobank', 'http://kotobank.jp/word/');
+addSearchAlias('e', 'Eijiro', 'http://eow.alc.co.jp/search?q=');
+addSearchAlias('a', 'Amazon', 'http://www.amazon.co.jp/s/?field-keywords=');
+addSearchAlias('y', 'YouTube', 'http://www.youtube.com/results?search_query=');
+unmapAllExcept(['n','p','N','P','g','?','j','k','v','m','o','r'],['https?://feedly.com/*','https?://www.inoreader.com/*']);
+settings.blacklistPattern = /.*mail.google.com.*|.*inbox.google.com.*/i;
     
     
     
